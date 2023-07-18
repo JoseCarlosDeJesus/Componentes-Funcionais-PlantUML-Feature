@@ -1,0 +1,8 @@
+@startsalt ExampleOptional
+{
+    !include https://raw.githubusercontent.com/JoseCarlosDeJesus/PLANTUML-features/main/EstudoDeCasoFeature/definitivefeature.puml
+
+    !$myControlVariable = 1
+$optional("Optional",0,"%chr(34)","caixa de entrada fantasma","%chr(34)",$myControlVariable)
+}
+@endsalt
